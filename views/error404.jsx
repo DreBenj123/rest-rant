@@ -9,4 +9,4 @@ function error404 () {
     </main>
 </Def>
 }
-module.expots = error404
+module.exports = error404
