@@ -3,8 +3,9 @@ const express = require("express");
 const app = express();
 
 app.set("view engine", "jsx");
-
 app.engine("jsx", require("express-react-views").createEngine());
+app.set("views", __dirname + "/views");
+app.use(express.static("public"));
 
 app.use("/places", require("./controllers/places"));
 
