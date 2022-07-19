@@ -6,3 +6,25 @@ img{
   width: 500px;
   height: 500px;
 }
+nav{ 
+  background-color: darkcyan;
+  padding:10px;}
+
+nav ul {
+  list-style-type:none;
+  margin:0;
+}
+
+nav li{
+  display: inline;
+  margin-right: 25px;
+}
+
+nav a {
+  color:white;
+  font-size: 1.5em
+}
+nav a :hover{
+  color:darkviolet;
+  text-decoration: solid 1px;
+}
