@@ -1,3 +1,12 @@
+body{
+  background-color: lightblue;
+  text-align: center;
+}
+main{
+  margin-right:20px;
+  margin-left:20px;
+  background-color: rgb(255, 255, 255);
+}
 h1 {
   text-align: center;
   color: cornflowerblue;
