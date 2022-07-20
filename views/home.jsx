@@ -11,9 +11,6 @@ function home() {
             src="https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=780&q=80"
             alt="beautiful pancakes"
           />
-          <a href="/places">
-            <button className="btn-primary">Places Page</button>
-          </a>
         </div>
         <div>
           Photo by{" "}
@@ -23,6 +20,9 @@ function home() {
           </a>{" "}
           on <a href="https://unsplash.com/photos/eeqbbemH9-c">Unsplash</a>
         </div>
+        <a href="/places">
+          <button className="btn-primary">Places Page</button>
+        </a>
       </main>
     </Def>
   );
